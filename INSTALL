@@ -1,0 +1,15 @@
+INSTALL file for LogAnalyzer
+============================
+
+After cloning from git server, build program run:
+    make
+
+Then run:
+    make install
+
+to run analyzer, use:
+./LogAnalyzer
+
+complete!
+
+
