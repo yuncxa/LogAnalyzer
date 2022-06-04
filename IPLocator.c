@@ -261,7 +261,7 @@ void get_version(unsigned char *version, int len)
 // 	get_ip_addr(str2ip(argv[1]), addr, 256, &start_ip, &end_ip);
 // 	printf("此IP %s 属于 %s\n",argv[1], addr);
 // 	ip2str(start_ip,addr);
-// 	printf("所在网�?: %s - ", addr);
+// 	printf("所在网�?: %s - ", addr);
 // 	ip2str(end_ip,addr);
 // 	printf("%s\n", addr);
 // 	return 0;
