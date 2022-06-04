@@ -12,7 +12,7 @@ installFunction:
 	ar -r installFunction.a IPLocator.o ReadFile.o TimeList.o RegionList.o
 installMain:
 	# export LD_LIBRARY_PATH=/usr/local/lib:D_LIBRARY_PATH
-# gcc -c main.c
+# gcc -c main.
 # gcc -o LogAnalyzer main.o libStructure.so libIPLocator.a libReadFile.a libTimeList.a 
 	# gcc -o LogAnalyzer main.c -L./usr/lib/ -lStructure -static -L. -lIPLocator -static -L. -lReadFile -static -L. -lRegionList -static -L. -lTimeList	
 install:
