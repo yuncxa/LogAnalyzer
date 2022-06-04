@@ -1,5 +1,5 @@
 main:installSo installFunction
-	gcc -o LogAnalyzer main.c -Iinclude installFunction.a -I ./include/ -L ./ -l Structure
+	gcc -o LogAnalyzer main.c -Iinclude libinstallFunction.a -I ./include/ -L ./ -l Structure
 installSo:
 	gcc Structure.c -fPIC -shared -o libStructure.so
 	# gcc -c Structure.c
