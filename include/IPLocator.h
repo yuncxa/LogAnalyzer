@@ -28,7 +28,7 @@ distribution.
 /**
  * Define you database file name here.
  */
-#define DEFAULT_IPDB_FILE  "D:\\network\\fterm\\QQWry.dat"
+#define DEFAULT_IPDB_FILE  "./QQWry.dat"
 
 #ifdef __cplusplus
 extern "C" {
